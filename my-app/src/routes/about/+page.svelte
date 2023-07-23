@@ -3,6 +3,16 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
+<section>
+  
+	<h1>About Page</h1>
+  
+	<p>
+	  This is the About page of the Svelte demo app.
+	  Add your content here!
+	</p>
+  </section>
+
 <div class="text-column">
 	<h1>About this app</h1>
 
