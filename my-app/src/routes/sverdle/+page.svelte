@@ -141,10 +141,12 @@
 	<div class="controls">
 		{#if won || data.answers.length >= 6}
 			{#if !won && data.answer}
-				<p>the answer was "{data.answer}"</p>
+				<p>Unlucky! The correct word is "{data.answer}"</p>
+			{:else}
+				<p>Congratulations! The correct word is indeed "{data.answer}"</p>
 			{/if}
 			<button data-key="enter" class="restart selected" formaction="?/restart">
-				{won ? 'you won :)' : `game over :(`} play again?
+				{won ? "You've won!" : `Game Over :(`} Play Again?
 			</button>
 		{:else}
 			<div class="keyboard">
