@@ -43,7 +43,7 @@ Install community-maintained integrations:
   https://github.com/svelte-add/svelte-add
 
 Next steps:
-  1: cd my-app
-  2: npm install (or pnpm install, etc)
-  3: git init && git add -A && git commit -m "Initial commit" (optional)
-  4: npm run dev -- --open
+1. cd my-app
+2. npm install (or pnpm install, etc)
+3. git init && git add -A && git commit -m "Initial commit" (optional)
+4. npm run dev -- --open
