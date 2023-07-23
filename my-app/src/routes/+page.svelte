@@ -35,6 +35,9 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+		background: linear-gradient(45deg, #ff8a00, #e52e71, #0f9b0f, #0052cc, #6a00ff);
+    	background-size: 400% 400%;
+    	animation: gradientAnimation 15s ease infinite;
 	}
 
 	h1 {
@@ -56,4 +59,15 @@
 		top: 0;
 		display: block;
 	}
+	@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 </style>

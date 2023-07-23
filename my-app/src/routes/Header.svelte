@@ -59,6 +59,10 @@
 		width: 100%;
 		height: 100%;
 	}
+	a {
+    /* ... */
+    color: #fff;
+    }
 
 	.corner img {
 		width: 2em;
