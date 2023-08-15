@@ -140,7 +140,7 @@
 
 	<div class="controls">
 		{#if won || data.answers.length >= 6}
-			{#if !won && data.answer}
+			{#if !won}
 				<p>Unlucky! The correct word is "{data.answer}"</p>
 			{:else}
 				<p>Congratulations! The correct word is indeed "{data.answer}"</p>
